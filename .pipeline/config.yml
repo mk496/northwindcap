@@ -32,11 +32,11 @@ stages:
 #      - alias: 'mySystemAlias'
 #        credentialId: 'mySystemCredentialsId'
 
-  Release:
-    cfTargets:
-      - org: 'cg-ce-cf'
-        space: 'dev'
-        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-        appName: 'myAppName'
-        manifest: 'manifest.yml'
-        credentialsId: 'cfdeploytest'
+#  Release:
+#    cfTargets:
+#      - org: 'cg-ce-cf'
+#        space: 'dev'
+#        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+#        appName: 'myAppName'
+#        manifest: 'manifest.yml'
+#        credentialsId: 'cfdeploytest'
